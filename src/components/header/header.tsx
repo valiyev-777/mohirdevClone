@@ -20,7 +20,7 @@ const header = () => {
     return (
         <header>
             <div className="logo">
-                <img src="./src\assets\mohirdev-logo-light.svg" alt="" />
+                <img src="..\public\mohirdev-logo-light.svg" alt="" />
             </div>
             <div className="navbar">
                 <nav>

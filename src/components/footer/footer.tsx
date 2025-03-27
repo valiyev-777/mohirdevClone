@@ -4,7 +4,7 @@ const footer = () => {
     return (
         <footer>
             <div className="logoContact">
-                <img src="./src\assets\mohirdev-logo-light.svg" alt="" />
+                <img src="..\public\mohirdev-logo-light.svg" alt="" />
                 <h1>+998 (78) 113 62 72</h1>
             </div>
             <div className="locationAuth">

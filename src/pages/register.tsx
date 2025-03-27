@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useAuth } from "../AuthContext";
 import { useNavigate } from "react-router-dom";
-import "./form.css"
+import "../form.css"
 
 const Register = () => {
     const { register } = useAuth(); // ✅ register TypeScript tomonidan to‘g‘ri tan olinadi
@@ -65,7 +65,7 @@ const Register = () => {
                 </form>
             </div>
             <div className="formLogo">
-                <img src="./src\assets\mohirdev-auth-logo.png" alt="" />
+                <img src="..\public\mohirdev-auth-logo.png" alt="" />
             </div>
         </div>
     );
