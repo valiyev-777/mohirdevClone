@@ -1,0 +1,42 @@
+.sectionLeft {
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.section-title {
+  color: #eceded;
+  font-size: 28px;
+  font-weight: 600px;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  gap: 40px;
+}
+
+.btnDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.btnSection {
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #3f9cfb;
+  color: #50b4d8;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btnSection:hover {
+  background-color: #3f9cfb;
+  color: white;
+  transition: all 0.5s ease-in;
+}

@@ -1,0 +1,88 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 335px;
+  width: 100%;
+  height: 370px;
+  border-radius: 15px;
+  background-color: #162b3a;
+  cursor: pointer;
+}
+
+.aftorIMg {
+  max-width: 335px;
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+  margin: 0;
+  object-fit: cover;
+}
+
+.cardInfo {
+  padding: 20px;
+}
+
+.cardInfo h3 {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: sans-serif;
+  margin: 10px 0;
+  color: white;
+}
+
+.cardInfo p {
+  color: #948f8f;
+  font-size: 18px;
+}
+
+.cardInfo h2 {
+  margin-top: 10px;
+  color: #89cbfd;
+  font-size: 32px;
+}
+
+.cardInfo h4 {
+  color: #89cbfd;
+  margin-top: 30px;
+}
+
+.cardInfo button {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3498db;
+  color: #e0e0e0;
+  font-size: medium;
+  cursor: pointer;
+}
+
+/* Progress bar styling */
+.progressbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.progressBg {
+  background: #e0e0e0;
+  border-radius: 20px;
+  width: 100%;
+  height: 10px;
+  position: relative;
+}
+
+.progressFoiz {
+  background: #3498db;
+  height: 10px;
+  border-radius: 20px;
+  transition: width 0.4s ease-in-out;
+}
+
+.progressText {
+  font-size: 22px;
+  color: #3498db;
+}
